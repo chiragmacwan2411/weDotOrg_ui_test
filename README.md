@@ -21,5 +21,6 @@ test report [https://github.com/chiragmacwan2411/weDotOrg_ui_test/blob/master/tm
 ### properties and configuration
 * package.json - Project configuration 
 * conf.js - script configuration
+* properties - page elements
 
 #### webdriver-manager start not required, direct connect enabled
