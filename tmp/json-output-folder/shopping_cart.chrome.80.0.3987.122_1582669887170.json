@@ -1,0 +1,198 @@
+[
+  {
+    "description": "   In order for user to add items to the shopping cart\n   user needs to go to shop all section\n   when user varifies that the shopping cart is empty\n   then user needs to add items one by one into shopping cart by clicking cart icon of each product\n   then user should be able to remove the item from the cart or change quantity of an item\n   then user checks the total price updation",
+    "keyword": "Feature",
+    "name": "Shopping cart",
+    "line": 1,
+    "id": "shopping-cart",
+    "tags": [],
+    "uri": "features/shoppingCart.feature",
+    "elements": [
+      {
+        "id": "shopping-cart;check-shopping-cart",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Check shopping cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User goes to ShopAll section",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user goes to shopping cart",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user verifies the cart message as \"Your Shopping Bag is Empty\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3030000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "shopping-cart;add-items-to-shopping-cart",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Add items to Shopping cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user adds items to shopping cart by clicking Add to Cart button on each item",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user verifies that added items appear correctly into the shopping cart",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6131000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "shopping-cart;edit-items-in-the-shopping-cart-and-verify-total-price",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Edit items in the shopping cart and verify total price",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user edits items into shopping cart by removing and changing quantities of items",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4126000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "80.0.3987.122"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

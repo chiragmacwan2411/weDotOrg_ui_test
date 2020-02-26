@@ -1,0 +1,24 @@
+{
+  "name": "wetests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testwe": "protractor conf.js",
+    "_comment": "./node_modules/.bin/cucumber-js --format=json:cucumber_report.json && node index.js"
+  },
+  "author": "Chirag Macwan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.5",
+    "powershell": "^2.3.1",
+    "properties-reader": "^1.0.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.1.0",
+    "protractor-cucumber-framework": "^6.2.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1"
+  }
+}

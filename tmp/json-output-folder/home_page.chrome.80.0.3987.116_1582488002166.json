@@ -1,0 +1,108 @@
+[
+  {
+    "description": "        In order to verify WE home Page\n        User needs to go to Home page of When WE",
+    "keyword": "Feature",
+    "name": "Home Page",
+    "line": 1,
+    "id": "home-page",
+    "tags": [],
+    "uri": "features/home.feature",
+    "elements": [
+      {
+        "id": "home-page;in-order-to-verify-the-home-page-of-we",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "In order to verify the Home page of WE",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User navigates to WE homepage \"https://www.we.org/en-CA/\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should correctly verify the correct Title of the home page as \"WE.org | Making Doing Good, Doable | Join the WE Movement\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User clicks the Shop button",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User is navigated to Shop section of the web-site and validates the page title as \"Socially Conscious, Handmade Products | ME to WE\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "80.0.3987.116"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

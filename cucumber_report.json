@@ -1,0 +1,140 @@
+[
+  {
+    "description": "        In order to verify the About WE Page\n        User needs to go to About WE page\n        And verify the title of the page",
+    "keyword": "Feature",
+    "name": "AboutWE Page",
+    "line": 1,
+    "id": "aboutwe-page",
+    "tags": [],
+    "uri": "features/aboutwe.feature",
+    "elements": [
+      {
+        "id": "aboutwe-page;in-order-to-verify-the-aboutwe-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "In order to verify the AboutWe page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User navigates to AboutWE page \"<AboutWEPage>\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition_AboutWE.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should correctly verify the correct Title of the AboutWE page as \"<Title>\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition_AboutWE.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "        In order to verify the home Page\n        User needs to go to Home page of When WE\n        And verify the title of the page",
+    "keyword": "Feature",
+    "name": "Home Page",
+    "line": 1,
+    "id": "home-page",
+    "tags": [],
+    "uri": "features/home.feature",
+    "elements": [
+      {
+        "id": "home-page;in-order-to-verify-the-home-page-of-we",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "In order to verify the Home page of WE",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User navigates to WE homepage \"<HomePage>\"",
+            "match": {
+              "location": "features/StepDefinition/stepDefinition_home.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should correctly verify the correct Title of the home page as \"<Title>\"",
+            "match": {
+              "location": "features/StepDefinition/stepDefinition_home.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

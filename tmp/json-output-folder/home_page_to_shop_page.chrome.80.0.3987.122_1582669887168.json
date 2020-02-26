@@ -1,0 +1,140 @@
+[
+  {
+    "description": "   In order to go to shop page\n   user needs to go to home page of When and verify the title of the page\n   then user needs to go to shop page by clicking SHOP button\n   then user needs to verify the title of the shop page correctly",
+    "keyword": "Feature",
+    "name": "Home page to Shop page",
+    "line": 1,
+    "id": "home-page-to-shop-page",
+    "tags": [],
+    "uri": "features/home.feature",
+    "elements": [
+      {
+        "id": "home-page-to-shop-page;homepage",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "HomePage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User navigates to WE Home page \"https://www.we.org/en-CA/\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3009000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user verifies the title of the home page as \"WE.org | Making Doing Good, Doable | Join the WE Movement\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3158000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-to-shop-page;land-on-shop-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Land on SHOP Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on SHOP button",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should successfully land on SHOP page and verify page title as \"Socially Conscious, Handmade Products | ME to WE\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4616000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "80.0.3987.122"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

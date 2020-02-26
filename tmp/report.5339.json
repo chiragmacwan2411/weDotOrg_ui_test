@@ -1,0 +1,69 @@
+[
+  {
+    "description": "        In order to verify WE home Page\n        User needs to go to Home page of When WE",
+    "keyword": "Feature",
+    "name": "Home Page",
+    "line": 1,
+    "id": "home-page",
+    "tags": [],
+    "uri": "features/home.feature",
+    "elements": [
+      {
+        "id": "home-page;in-order-to-verify-the-home-page-of-we",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "In order to verify the Home page of WE",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User navigates to WE homepage \"https://www.we.org/en-CA/\"",
+            "match": {
+              "location": "features/StepDefinition/StepDefinition_home.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3534000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/StepDefinition/hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
