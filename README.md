@@ -14,9 +14,9 @@ we.org ui automation
 test report [https://github.com/chiragmacwan2411/weDotOrg_ui_test/blob/master/tmp/report/index.html]
 
 ### Script flow
-Markup : * cucumber features and scenarios
-            * Step definitions (*.js files)
-                * page objects for each page
+* cucumber features and scenarios
+    * Step definitions (*.js files)
+        * page objects for each page
 
 ### properties and configuration
 * package.json - Project configuration 
